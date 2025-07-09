@@ -1,18 +1,30 @@
+# Hello this is my firt bigger project in java : )
+
+A clean, refactored, and professional Java To-Do application demonstrating best practices such as separation of concerns, error handling, and modern Java conventions.
+
+## Features
+
+- Add, update, delete, and list to-do items
+- Input validation and error handling
+- Modular design with clear separation of UI, business logic, and data management
+- Uses Java Collections Framework for efficient data storage
+- Simple console-based user interface
+
+## Technologies
+
+- Java 17+ (recommended)
+- No external dependencies; uses standard Java libraries
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Prerequisites
 
-## Folder Structure
+- Java Development Kit (JDK) 17 or higher installed
+- Java compiler (`javac`) and runtime (`java`) available in your system PATH
 
-The workspace contains two folders by default, where:
+### Running the Application
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Clone or download this repository
+2. Compile the source files:
+   ```bash
+   javac -d out src/**/*.java
